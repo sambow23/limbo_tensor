@@ -1,0 +1,11 @@
+{
+  "ndk": "/opt/android-ndk",
+  "revision": {
+    "mMajor": 28,
+    "mMinor": 2,
+    "mMicro": 13676358,
+    "mPreview": 0,
+    "mPrecision": "MICRO",
+    "mPreviewSeparator": " "
+  }
+}

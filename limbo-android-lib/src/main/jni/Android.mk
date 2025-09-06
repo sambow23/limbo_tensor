@@ -9,8 +9,8 @@ endif
 
 ifeq ($(USE_SDL),true)
 	include $(NDK_PROJECT_PATH)/jni/SDL2/Android.mk
+	include $(NDK_PROJECT_PATH)/jni/compat/sdl-extensions/Android.mk
 endif
-include $(NDK_PROJECT_PATH)/jni/compat/sdl-extensions/Android.mk
 include $(NDK_PROJECT_PATH)/jni/limbo/Android.mk
 
 #Optional libs

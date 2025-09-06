@@ -78,7 +78,9 @@ static inline int limbo_vfprintf(FILE *stream, const char *format, va_list ap){
 
 
 //Generic
+#ifndef printf
 #define printf(...) __android_log_print(ANDROID_LOG_DEBUG, TAG, __VA_ARGS__)
+#endif
 #define vprintf(...) __android_log_print(ANDROID_LOG_DEBUG, TAG, __VA_ARGS__)
 #define perror(x) __android_log_print(ANDROID_LOG_ERROR, TAG, x)
 

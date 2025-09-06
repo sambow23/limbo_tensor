@@ -1,4 +1,4 @@
-LIMBO_JNI_ROOT := $(CURDIR)/jni
+LIMBO_JNI_ROOT := $(CURDIR)
 
 include $(LIMBO_JNI_ROOT)/android-limbo-build.mak
 

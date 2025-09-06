@@ -1,0 +1,62 @@
+[
+  {
+    "level": "INFO",
+    "message": "Start JSON generation. Platform version: 26 min SDK version: x86_64",
+    "file": "/home/cr/limbo_tensor/limbo-android-lib/src/main/jni/Android.mk",
+    "tag": "debug|x86_64"
+  },
+  {
+    "level": "INFO",
+    "message": "rebuilding JSON /home/cr/limbo_tensor/limbo-android-lib/.cxx/ndkBuild/debug/x86_64/android_gradle_build.json due to:",
+    "file": "/home/cr/limbo_tensor/limbo-android-lib/src/main/jni/Android.mk",
+    "tag": "debug|x86_64"
+  },
+  {
+    "level": "INFO",
+    "message": "- expected json /home/cr/limbo_tensor/limbo-android-lib/.cxx/ndkBuild/debug/x86_64/android_gradle_build.json file is not present, will remove stale json folder",
+    "file": "/home/cr/limbo_tensor/limbo-android-lib/src/main/jni/Android.mk",
+    "tag": "debug|x86_64"
+  },
+  {
+    "level": "INFO",
+    "message": "- missing previous command file /home/cr/limbo_tensor/limbo-android-lib/.cxx/ndkBuild/debug/x86_64/build_command.txt, will remove stale json folder",
+    "file": "/home/cr/limbo_tensor/limbo-android-lib/src/main/jni/Android.mk",
+    "tag": "debug|x86_64"
+  },
+  {
+    "level": "INFO",
+    "message": "- command changed from previous, will remove stale json folder",
+    "file": "/home/cr/limbo_tensor/limbo-android-lib/src/main/jni/Android.mk",
+    "tag": "debug|x86_64"
+  },
+  {
+    "level": "INFO",
+    "message": "removing stale contents from \u0027/home/cr/limbo_tensor/limbo-android-lib/.cxx/ndkBuild/debug/x86_64\u0027",
+    "file": "/home/cr/limbo_tensor/limbo-android-lib/src/main/jni/Android.mk",
+    "tag": "debug|x86_64"
+  },
+  {
+    "level": "INFO",
+    "message": "created folder \u0027/home/cr/limbo_tensor/limbo-android-lib/.cxx/ndkBuild/debug/x86_64\u0027",
+    "file": "/home/cr/limbo_tensor/limbo-android-lib/src/main/jni/Android.mk",
+    "tag": "debug|x86_64"
+  },
+  {
+    "level": "INFO",
+    "message": "executing ndkBuild Executable : /opt/android-ndk/ndk-build\narguments : \nNDK_PROJECT_PATH\u003dnull\nAPP_BUILD_SCRIPT\u003d/home/cr/limbo_tensor/limbo-android-lib/src/main/jni/Android.mk\nNDK_APPLICATION_MK\u003d/home/cr/limbo_tensor/limbo-android-lib/src/main/jni/Application.mk\nAPP_ABI\u003dx86_64\nNDK_ALL_ABIS\u003dx86_64\nNDK_DEBUG\u003d1\nAPP_PLATFORM\u003dandroid-26\nNDK_OUT\u003d/home/cr/limbo_tensor/limbo-android-lib/build/intermediates/ndkBuild/debug/obj\nNDK_LIBS_OUT\u003d/home/cr/limbo_tensor/limbo-android-lib/build/intermediates/ndkBuild/debug/lib\nAPP_SHORT_COMMANDS\u003dfalse\nLOCAL_SHORT_COMMANDS\u003dfalse\n-B\n-n\njvmArgs : \n\n",
+    "file": "/home/cr/limbo_tensor/limbo-android-lib/src/main/jni/Android.mk",
+    "tag": "debug|x86_64"
+  },
+  {
+    "level": "INFO",
+    "message": "Executable : /opt/android-ndk/ndk-build\narguments : \nNDK_PROJECT_PATH\u003dnull\nAPP_BUILD_SCRIPT\u003d/home/cr/limbo_tensor/limbo-android-lib/src/main/jni/Android.mk\nNDK_APPLICATION_MK\u003d/home/cr/limbo_tensor/limbo-android-lib/src/main/jni/Application.mk\nAPP_ABI\u003dx86_64\nNDK_ALL_ABIS\u003dx86_64\nNDK_DEBUG\u003d1\nAPP_PLATFORM\u003dandroid-26\nNDK_OUT\u003d/home/cr/limbo_tensor/limbo-android-lib/build/intermediates/ndkBuild/debug/obj\nNDK_LIBS_OUT\u003d/home/cr/limbo_tensor/limbo-android-lib/build/intermediates/ndkBuild/debug/lib\nAPP_SHORT_COMMANDS\u003dfalse\nLOCAL_SHORT_COMMANDS\u003dfalse\n-B\n-n\njvmArgs : \n\n",
+    "file": "/home/cr/limbo_tensor/limbo-android-lib/src/main/jni/Android.mk",
+    "tag": "debug|x86_64"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON generation completed with problem. Exception: Build command failed.\nError while executing process /opt/android-ndk/ndk-build with arguments {NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/cr/limbo_tensor/limbo-android-lib/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/home/cr/limbo_tensor/limbo-android-lib/src/main/jni/Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-26 NDK_OUT\u003d/home/cr/limbo_tensor/limbo-android-lib/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/home/cr/limbo_tensor/limbo-android-lib/build/intermediates/ndkBuild/debug/lib APP_SHORT_COMMANDS\u003dfalse LOCAL_SHORT_COMMANDS\u003dfalse -B -n}\nNDK_TOOLCHAIN_VERSION \u003d \nNDK_DEBUG \u003d 1\nAPP_ARM_MODE \u003d \nAPP_ARM_NEON \u003d \nAPP_OPTIM \u003d debug\nAPP_ABI \u003d x86_64\nAPP_PLATFORM \u003d android-26\nNDK_PROJECT_PATH \u003d null\nARCH_CFLAGS \u003d \nAPP_CFLAGS \u003d -Wno-format-security -include \n\n/opt/android-ndk/build/core/build-all.mk:84: Android NDK: WARNING: There are no modules to build in this project!    \n/home/cr/limbo_tensor/limbo-android-lib/src/main/jni/Android.mk:14: null/jni/limbo/Android.mk: No such file or directory\nmake: *** No rule to make target \u0027null/jni/limbo/Android.mk\u0027.  Stop.\n",
+    "file": "/home/cr/limbo_tensor/limbo-android-lib/src/main/jni/Android.mk",
+    "tag": "debug|x86_64"
+  }
+]

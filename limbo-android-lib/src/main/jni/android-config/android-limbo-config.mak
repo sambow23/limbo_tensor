@@ -6,7 +6,7 @@
 #NDK_ROOT = /home/dev/tools/ndk/android-ndk-r14b
 #USE_GCC?=true
 # Or use r23 with clang 
-NDK_ROOT ?= /home/dev/tools/ndk/android-ndk-r23b
+NDK_ROOT ?= /opt/android-ndk
 USE_GCC?=false
 
 ### the ndk api should be the same as the minSdkVersion in your AndroidManifest.xml 
@@ -52,7 +52,7 @@ BUILD_GUEST?=x86_64-softmmu
 USE_QEMU_VERSION ?= 5.1.0
 
 # If you want to use SDL interface
-USE_SDL ?= true
+USE_SDL ?= false
 
 # If you want to use SDL Audio with Android AudioTrack
 USE_SDL_AUDIO ?= true

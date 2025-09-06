@@ -1,6 +1,8 @@
 
 #include <jni.h>
 #include <unistd.h>
+#include <malloc.h>
+#include <string.h>
 #include "limbo_logutils.h"
 #include "limbo_compat.h"
 
@@ -34,7 +36,7 @@ const char* strchrnul(const char* s, int c) {
     char *str = strchr(s, c);
     if(str == NULL) {
         int length = strlen(s);
-        int endofs = s + length;
+        const char *endofs = s + length;
         return endofs;
     }
     return str;
